@@ -18,17 +18,17 @@ from scraper import scrapper, scrapper_sites
 from texts import HELP_TEXT
 
 # bot
-bot_token = os.environ.get("TOKEN", "")
-api_hash = os.environ.get("HASH", "") 
-api_id = os.environ.get("ID", "")
-OWNER_ID = os.environ.get("OWNER_ID", "")
+bot_token = os.environ.get("TOKEN", "6956873147:AAFj1eXvMXMvz_wcTth5_zfLDf4n4PjkED0")
+api_hash = os.environ.get("HASH", "fcdc178451cd234e63faefd38895c991") 
+api_id = os.environ.get("ID", "1923471")
+OWNER_ID = os.environ.get("OWNER_ID", "880087645")
 ADMIN_LIST = [int(ch) for ch in (os.environ.get("ADMIN_LIST", f"{OWNER_ID}")).split()]
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "")
+OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "JAsuran2p0")
 PERMANENT_GROUP = os.environ.get("PERMANENT_GROUP", "")
 GROUP_ID = [int(ch) for ch in (os.environ.get("GROUP_ID", f"{PERMANENT_GROUP}")).split()]
 UPDATES_CHANNEL = str(os.environ.get("UPDATES_CHANNEL", ""))
-DB_URL = os.environ.get("DB_URL", "")
-U_NAME = os.environ.get("BOT_USERNAME", "")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://dhanapal:dhanapal@dhanapal.pvrwtmv.mongodb.net/?retryWrites=true&w=majority")
+U_NAME = os.environ.get("BOT_USERNAME", "bigbypass1bot")
 
 
 app = Client("my_bot",api_id=api_id, api_hash=api_hash,bot_token=bot_token)
