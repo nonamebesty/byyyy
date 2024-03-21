@@ -28,7 +28,7 @@ PERMANENT_GROUP = os.environ.get("PERMANENT_GROUP")
 GROUP_ID = [int(ch) for ch in (os.environ.get("GROUP_ID", f"{PERMANENT_GROUP}")).split()]
 UPDATES_CHANNEL = str(os.environ.get("UPDATES_CHANNEL"))
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://dhanapal:dhanapal@dhanapal.pvrwtmv.mongodb.net/?retryWrites=true&w=majority")
-U_NAME = os.environ.get("BOT_USERNAME", "ASLinkBypasserBOt)
+U_NAME = os.environ.get("BOT_USERNAME", "ASLinkBypasserBOt")
 
 #BOT_USERNAME = os.environ.get("BOT_USERNAME")
 
