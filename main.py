@@ -24,11 +24,11 @@ api_id = os.environ.get("ID", "1923471")
 OWNER_ID = os.environ.get("OWNER_ID", "880087645")
 ADMIN_LIST = [int(ch) for ch in (os.environ.get("ADMIN_LIST", f"{OWNER_ID}")).split()]
 OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "JAsuran2p0")
-PERMANENT_GROUP = os.environ.get("PERMANENT_GROUP", "")
+PERMANENT_GROUP = os.environ.get("PERMANENT_GROUP", "0")
 GROUP_ID = [int(ch) for ch in (os.environ.get("GROUP_ID", f"{PERMANENT_GROUP}")).split()]
-UPDATES_CHANNEL = str(os.environ.get("UPDATES_CHANNEL", ""))
+UPDATES_CHANNEL = str(os.environ.get("UPDATES_CHANNEL", "0"))
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://dhanapal:dhanapal@dhanapal.pvrwtmv.mongodb.net/?retryWrites=true&w=majority")
-#U_NAME = os.environ.get("BOT_USERNAME", "ASLinkBypasserBOt")
+U_NAME = os.environ.get("BOT_USERNAME", "ASLinkBypasserBOt")
 
 #BOT_USERNAME = os.environ.get("BOT_USERNAME")
 
