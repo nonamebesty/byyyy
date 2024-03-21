@@ -30,7 +30,7 @@ UPDATES_CHANNEL = str(os.environ.get("UPDATES_CHANNEL", ""))
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://dhanapal:dhanapal@dhanapal.pvrwtmv.mongodb.net/?retryWrites=true&w=majority")
 #U_NAME = os.environ.get("BOT_USERNAME", "ASLinkBypasserBOt")
 
-BOT_USERNAME = os.environ.get("BOT_USERNAME")
+#BOT_USERNAME = os.environ.get("BOT_USERNAME")
 
 app = Client("my_bot",api_id=api_id, api_hash=api_hash,bot_token=bot_token)
 
