@@ -5,7 +5,7 @@ chromedriver_autoinstaller
 selenium==4.4.3
 bs4 
 python-dotenv
-pyrogram
+Pyrogram==2.0.106
 tgcrypto
 lxml
 lk21
