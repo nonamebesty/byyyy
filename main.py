@@ -21,10 +21,10 @@ from texts import HELP_TEXT
 bot_token = os.environ.get("TOKEN", "6665032973:AAEoRsnrvaAr0Vn3bgrizVaMjezo2Stlh7I")
 api_hash = os.environ.get("HASH", "fcdc178451cd234e63faefd38895c991") 
 api_id = os.environ.get("ID", "1923471")
-OWNER_ID = os.environ.get("OWNER_ID", "880087645")
+OWNER_ID = os.environ.get("OWNER_ID")
 ADMIN_LIST = [int(ch) for ch in (os.environ.get("ADMIN_LIST", f"{OWNER_ID}")).split()]
-OWNER_USERNAME = "vetrimarann"
-PERMANENT_GROUP = os.environ.get("PERMANENT_GROUP", "-1002099304315")
+OWNER_USERNAME = "JAsuran2p0"
+PERMANENT_GROUP = os.environ.get("PERMANENT_GROUP")
 GROUP_ID = [int(ch) for ch in (os.environ.get("GROUP_ID", f"{PERMANENT_GROUP}")).split()]
 UPDATES_CHANNEL = str(os.environ.get("UPDATES_CHANNEL"))
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://dhanapal:dhanapal@dhanapal.pvrwtmv.mongodb.net/?retryWrites=true&w=majority")
